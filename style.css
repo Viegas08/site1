@@ -272,7 +272,12 @@ table {
         padding: 6px;
     }
 
-    /* ---- Botão flutuante de WhatsApp ---- */
+    a {
+        overflow-wrap: anywhere;
+    }
+}
+
+/* ---- Botão flutuante de WhatsApp ---- */
 .whatsapp {
     position: fixed;      /* fixo na tela, mesmo rolando a página */
     right: 18px;          /* distância da borda direita */
@@ -339,9 +344,4 @@ table {
     .whatsapp { width: 54px; height: 54px; right: 14px; bottom: 14px; }
     .whatsapp svg { width: 28px; height: 28px; }
     .whatsapp::before { display: none; }
-}
-
-    a {
-        overflow-wrap: anywhere;
-    }
 }
